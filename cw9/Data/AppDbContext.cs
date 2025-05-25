@@ -97,7 +97,7 @@ public class AppDbContext : DbContext
             IdPrescription = 1,
             IdMedicament = 1,
             Dose = 2,
-            Description = "Take twice daily"
+            Details = "Take twice daily"
         });
         
     }

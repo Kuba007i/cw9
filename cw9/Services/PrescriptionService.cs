@@ -71,7 +71,7 @@ public class PrescriptionService : IPrescriptionService
                 IdPrescription = prescription.IdPrescription,
                 IdMedicament = med.IdMedicament,
                 Dose = med.Dose,
-                Description = med.Description
+                Details = med.Description
             });
         }
 

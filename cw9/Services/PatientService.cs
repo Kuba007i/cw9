@@ -49,7 +49,7 @@ public class PatientService : IPatientService
                     {
                         IdMedicament = pm.Medicament.IdMedicament,
                         Name = pm.Medicament.Name,
-                        Description = pm.Description,
+                        Description = pm.Details,
                         Dose = pm.Dose
                     }).ToList()
                 }).ToList()
